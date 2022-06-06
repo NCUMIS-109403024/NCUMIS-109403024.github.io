@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fboysnguys%2F&psig=AOvVaw0v3SPmv-rdNPejEhtpXLQQ&ust=1654572388904000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCMje583wl_gCFQAAAAAdAAAAABAD-->
+<!--參考來源:EE class-->
+
+<html>
+    <head>
+        <title>MY TEST HTML CV</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="mystyle.css">
+	<style>
+		body{background-color: white;}
+		.dark{background-color: black;}
+	</style>
+
+    </head>
+    <body>
+		<!--跳出alert-->
+		<script>
+			alert('確定要前往楊凱翔的CV嗎??');
+		</script>
+
+		<!--跑馬燈:字體顏色+字體大小改變-->
+    		<marquee class="text">~Welcome Baby~</marquee>
+
+		<!--背景+邊界粗細+邊界顏色改變-->
+        	<table>
+           	 <tr>
+                	<td><img src="帥哥.jpg" alt="銷魂美男子18+照片"></td>
+                	<td>
+                    	<ul>
+                        	<li>姓名:楊凱翔</li>
+                        	<li>年齡:20</li>
+                        	<li>性別:Male</li>
+                        	<li>興趣:飛盤.排球.攝影</li>
+                        	<li>學校:中央大學</li>
+                        	<li><a href="https://www.instagram.com/kaisiang910623/" target="_blank">IG</a></li>
+                        	<li>信箱:handsomeboy@gmail.com</li>
+                    	</ul>
+                	</td>
+
+		<!--把button移到螢幕右方-->
+			<div><button onclick="myFunction()">Change Mode</button></div>
+
+            	</tr>
+        	</table>
+        
+		<br>
+        	<hr color="#FFE681" size="10">
+        	
+    		<!--h2改顏色-->
+        	<div class="about skills">
+            		<h2>Ability</h2>
+
+		<!--長條圖特效:顏色+區塊以左右分隔+長條圖高度-->
+            		<div class="box">
+                		<h4>Chinese</h4>
+                		<div class="percent">
+                    			<div style="width: 95%"></div>
+                		</div>
+            		</div>
+
+            		<div class="box">
+                		<h4>English</h4>
+                		<div class="percent">
+                    			<div style="width: 60%"></div>
+                		</div>
+            		</div>
+
+            		<div class="box">
+                		<h4>Mandarin</h4>
+                		<div class="percent">
+                    			<div style="width: 75%"></div>
+                		</div>
+            		</div>
+
+			<div class="box">
+                		<h4>Japanese</h4>
+                		<div class="percent">
+                    			<div style="width: 25%"></div>
+                		</div>
+            		</div>
+        	</div>
+
+	
+		<hr color="#FFE681" size="10">
+
+		<!--改整個class=data內的字體顏色-->
+		<div class="data">
+        		<h2>Experience</h2>
+                    	<ol>
+              			<li>國小:副班長小幫手+校長室常客</li>
+                        	<li>國中:班寵+泳渡日月潭</li>
+                        	<li>高中:3大校花專屬保鑣</li>
+				<li>大學:健美比賽5連霸+007秘書</li>
+                    	</ol>
+
+	<!--按下button後換背景顏色-->
+        <script>
+		function myFunction(){
+			var element=document.body;
+			element.classList.toggle("dark"); 
+		}
+	</script>
+   
+    </body>
+</html>
+
+
